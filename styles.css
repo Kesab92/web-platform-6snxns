@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sohne, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+main {
+  padding: 1rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.s-Content__list {
+  display: flex;
+  gap: 20px;
+}
+.s-Logo__names {
+  display: flex;
+  gap: 5px;
+}
+.s-Header {
+  font-size: 22px;
+  font-weight: bold;
+}
+.s-Subheader {
+  font-size: 16px;
+  color: rgba(117, 117, 117, 1);
+}
+.s-Small_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.s-Content__type {
+  border: none;
+  border-radius: 8px;
+  color: rgba(117, 117, 117, 1);
+  background-color: rgba(117, 117, 117, 0.3);
+  font-size: 13px;
+}
+.s-Time_duration {
+  font-size: 13px;
+  color: rgba(117, 117, 117, 1);
+}
+.s-Author__name {
+  font-size: small;
+  font-weight: bold;
+}
